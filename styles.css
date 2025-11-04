@@ -1,0 +1,151 @@
+#bg {
+background-image: url('bgtest.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+margin: 0;
+}
+
+.background {
+background-color: #dba24a;
+}
+
+H1 {
+background-color:  	#dba24a;
+text-align: center;
+}
+
+
+a:link {
+color: black;
+
+}
+
+/* menu ids*/
+#parent {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 1rem;
+
+
+}
+
+#child {
+    justify-content: space-between;
+}
+
+
+
+.primi {
+background-image: url(https://cookingwithmammac.com/wp-content/uploads/2022/10/Italian-Appetizer-Recipes-Image.jpg);
+
+    height:100%;
+    width:100%;
+    opacity: 0.5;
+}
+
+.primi:hover {
+    opacity: 1;
+}
+
+.pizza {
+    opacity: 0.5;
+    background-image: url(https://www.recipetineats.com/uploads/2020/05/Pizza-Toppings.jpg);
+    height:100%;
+    width:100%;
+    
+}
+
+
+
+
+.pizza:hover {
+opacity: 1;
+}
+
+
+
+.toppings {
+    opacity: 0.5;
+    background-image: url(https://www.melskitchencafe.com/wp-content/uploads/2014/05/toppings.jpg);
+    height:100%;
+    width:100%;
+
+}
+
+
+.toppings:hover {
+opacity: 1;
+}
+
+
+.desserts {
+    opacity: 0.5;
+    background-image: url(https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2022/06/LINK-TRAFFIC-18-1200x675.jpg);
+    height:100%;
+    width:100%;
+
+}
+
+
+.desserts:hover {
+opacity: 1;
+}
+
+
+
+.drinks {
+background-image: url(https://www.cannonlogistics.com.au/wp-content/uploads/2015/11/soft-drink-cans-800x400.jpg);
+
+    height:100%;
+    width:100%;
+    opacity: 0.5;
+}
+
+.drinks:hover {
+    opacity: 1;
+}
+
+/*main page div ids*/
+#wholebar {
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color:  	#e12301;
+    height: 70px;
+       
+}
+
+#innerbar { 
+    width: 40%;
+    margin: 10px 20px;
+}
+
+
+
+
+/*contact us ids*/
+#form {
+    text-align: center;
+}
+
+#comments {
+    height: 200px;
+    width: 1500px;
+}
+
+/*about us */
+#AUparent {
+      display: inline-block;
+      inline-size: 60%;
+      margin-left: 20%;
+      height: 90vh;
+}
+
+#aboutus {
+    font-size: large;
+}
