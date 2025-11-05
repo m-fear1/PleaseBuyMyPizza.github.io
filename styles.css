@@ -1,3 +1,4 @@
+/*general IDs*/
 #bg {
 background-image: url('bgtest.jpg');
 background-repeat: no-repeat;
@@ -21,7 +22,25 @@ color: black;
 
 }
 
-/* menu ids*/
+/*main page div ids and classes*/
+#wholebar {
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color:  	#e12301;
+    height: 70px;
+       
+}
+
+.innerbar { 
+    width: 40%;
+    margin: 10px 20px;
+}
+
+/* menu ids and classes*/
 #parent {
 display: flex;
 flex-direction: column;
@@ -107,23 +126,7 @@ background-image: url(https://www.cannonlogistics.com.au/wp-content/uploads/2015
     opacity: 1;
 }
 
-/*main page div ids*/
-#wholebar {
-    
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    background-color:  	#e12301;
-    height: 70px;
-       
-}
 
-.innerbar { 
-    width: 40%;
-    margin: 10px 20px;
-}
 
 
 
@@ -148,4 +151,13 @@ background-image: url(https://www.cannonlogistics.com.au/wp-content/uploads/2015
 
 .aboutus {
     font-size: large;
+}
+
+.AUimages {
+    height:50%; 
+    width:100%;
+}
+
+.spacer {
+    background-color: #e12301;
 }
