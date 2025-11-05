@@ -31,13 +31,13 @@ gap: 1rem;
 
 }
 
-#child {
+.child {
     justify-content: space-between;
 }
 
 
 
-.primi {
+#primi {
 background-image: url(https://cookingwithmammac.com/wp-content/uploads/2022/10/Italian-Appetizer-Recipes-Image.jpg);
 
     height:100%;
@@ -45,11 +45,11 @@ background-image: url(https://cookingwithmammac.com/wp-content/uploads/2022/10/I
     opacity: 0.5;
 }
 
-.primi:hover {
+#primi:hover {
     opacity: 1;
 }
 
-.pizza {
+#pizza {
     opacity: 0.5;
     background-image: url(https://www.recipetineats.com/uploads/2020/05/Pizza-Toppings.jpg);
     height:100%;
@@ -60,13 +60,13 @@ background-image: url(https://cookingwithmammac.com/wp-content/uploads/2022/10/I
 
 
 
-.pizza:hover {
+#pizza:hover {
 opacity: 1;
 }
 
 
 
-.toppings {
+#toppings {
     opacity: 0.5;
     background-image: url(https://www.melskitchencafe.com/wp-content/uploads/2014/05/toppings.jpg);
     height:100%;
@@ -75,12 +75,12 @@ opacity: 1;
 }
 
 
-.toppings:hover {
+#toppings:hover {
 opacity: 1;
 }
 
 
-.desserts {
+#desserts {
     opacity: 0.5;
     background-image: url(https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2022/06/LINK-TRAFFIC-18-1200x675.jpg);
     height:100%;
@@ -89,13 +89,13 @@ opacity: 1;
 }
 
 
-.desserts:hover {
+#desserts:hover {
 opacity: 1;
 }
 
 
 
-.drinks {
+#drinks {
 background-image: url(https://www.cannonlogistics.com.au/wp-content/uploads/2015/11/soft-drink-cans-800x400.jpg);
 
     height:100%;
@@ -103,7 +103,7 @@ background-image: url(https://www.cannonlogistics.com.au/wp-content/uploads/2015
     opacity: 0.5;
 }
 
-.drinks:hover {
+#drinks:hover {
     opacity: 1;
 }
 
@@ -120,7 +120,7 @@ background-image: url(https://www.cannonlogistics.com.au/wp-content/uploads/2015
        
 }
 
-#innerbar { 
+.innerbar { 
     width: 40%;
     margin: 10px 20px;
 }
@@ -146,6 +146,6 @@ background-image: url(https://www.cannonlogistics.com.au/wp-content/uploads/2015
       height: 90vh;
 }
 
-#aboutus {
+.aboutus {
     font-size: large;
 }
